@@ -13,6 +13,8 @@ Because you are using the same repository for this assignment, you should be goo
 ## For Submission: API Integration
 Replace the API stubs and mocks in your front end with actual requests to your chosen web service API. If you maintained the recommended design for this layer in [Assignment 1025](./front-end-development.md), then this part should be a no-brainer: once finished, your front end will “just work” and immediately shift to reading and writing real information to/from your chosen web service API.
 
+The starter code for the three technology stacks all contain an extra “real API” file that genuinely implements one web service API call for you. Pattern your full API implementation after that code.
+
 Once this step is finished, you should have a complete application, with a user interface of your design and implementation communicating with a real-world web service.
 
 ### How to Turn it In
