@@ -16,9 +16,14 @@ Textbook reading is centered on the menus, forms, and dialogs interaction style,
 For nuts-and-bolts web details (even for React, to a degree), the JavaScript textbook will be of help, particularly Chapter 6, Section 7.5, and Sections 8.2.3, 8.3, 8.4.1, 8.5, and 8.7. For the best exposure, read Chapters 6, 7, and 8 in full.
 
 ## Best Practices and Automated Feedback
-Starter code for three possible front-end technology stacks is included with you GitHub Classroom repository. The web-based starters require [Node.js](https://nodejs.org) and are fully configured for linting ([ESLint](http://eslint.org)), unit tests ([Jest](https://jestjs.io)), and code coverage ([Istanbul](https://github.com/gotwarlost/istanbul), built into Jest). These will be run automatically whenever you push to GitHub.
+Starter code for three possible front-end technology stacks is available in the [bazaar](https://github.com/dondi/bazaar) repository:
+ * jQuery and Bootstrap web app: [giphy-sample](https://github.com/dondi/bazaar/tree/master/giphy-sample)
+ * React web app: [giphy-sample-react](https://github.com/dondi/bazaar/tree/master/giphy-sample-react)
+ * iOS application: [giphy-sample-ios](https://github.com/dondi/bazaar/tree/master/giphy-sample-ios)
 
-The iOS starter requires [Xcode](https://developer.apple.com/xcode/) and has similar tooling, but will not be run automatically by Jenkins. Instead, run them manually before committing and pushing your work.
+The web-based starters require [Node.js](https://nodejs.org) and are fully configured for linting ([ESLint](http://eslint.org)), unit tests ([Jest](https://jestjs.io)), and code coverage ([Istanbul](https://github.com/gotwarlost/istanbul), built into Jest). These will be run automatically whenever you push to GitHub.
+
+The iOS starter requires [Xcode](https://developer.apple.com/xcode/) and has similar tooling.
 
 ### Automated Feedback Setup
 In order to connect your repository to our automated code review and feedback system, once you are up and running please send your repository’s URL to [Ian Lizarda](https://github.com/ianlizzo) or [Donovan Moini](https://github.com/dmoini). Create a GitHub issue on your repository and mention either of them in it (`@ianlizzo`, `@dmoini`). Once they have you hooked up, the system will provide feedback on code formatting and quality whenever you commit a new version to GitHub. _Points will be deducted if issues here linger in the final submission._
@@ -29,9 +34,9 @@ The title pretty much says it: put together a front end for a pre-existing web s
 Technology, coding, and architecture specifics will vary by technology stack, but one specification is common across the board: this assignment expects you to implement _the front end only_ (i.e., no real connections to the web services yet), but also requires that there are _clear, well-defined placeholders_ for those web services in your code. The starter code already has these qualities, so as long as you don’t veer too far from them, you should be fine.
 
 ### How to Turn it In
-The starter applications can be run/built from within their own subfolders, but for your own submission, _copy the starter code of choice_ to the top level of this repository, then start working on those files as your own. This has the secondary effect of keeping the starter code untouched—you’ll probably benefit from that, in case you do something that breaks the application code.
+The starter applications can be run/built from within their own subfolders, but for your own submission, _copy the files_ from the starter code of choice to the top level of this repository, then start working on those files as your own. This has the secondary effect of keeping the starter code untouched—you’ll probably benefit from that, in case you do something that breaks the application code.
 
-To evaluate your work, we will invoke or build your application based on the files at the top of the repository, and not within the starter code subfolders.
+To evaluate your work, we will invoke or build your application based on the files at the top of the repository.
 
 ## Specific Point Allocations
 Programming assignments are scored according to outcomes _3a_, _3b_, and _4a_ to _4f_ in the [syllabus](http://dondi.lmu.build/fall2018/cmsi370/cmsi370-fall2018-syllabus.pdf). For this particular assignment, graded categories are as follows:
